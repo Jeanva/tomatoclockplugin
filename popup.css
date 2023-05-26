@@ -1,0 +1,16 @@
+#app{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+#app>div{
+    font-size: 18px;
+}
+.countDown>span{
+    color: red
+}
+img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -5px;
+}

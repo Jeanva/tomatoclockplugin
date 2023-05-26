@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "version": "2.0",
+    "name": "mybookmarks",
+    "description": "a chrome extension for bookmarks",
+    "icons": {
+      "128": "image/tomato.png",
+      "16": "image/tomato.png"
+    },
+   
+    "action": {
+      "default_title": "番茄钟",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "bookmarks"
+    ],
+   
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+    ]
+  }
